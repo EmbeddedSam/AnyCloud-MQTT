@@ -85,6 +85,7 @@
 -I./libs/retarget-io
 -I./libs/secure-sockets
 -I./libs/secure-sockets/include
+-I./libs/usbdev
 -I./libs/whd-bsp-integration
 -I./libs/wifi-connection-manager
 -I./libs/wifi-connection-manager/include

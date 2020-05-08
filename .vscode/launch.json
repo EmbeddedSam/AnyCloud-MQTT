@@ -30,7 +30,7 @@
             "type": "cortex-debug",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceRoot}",
@@ -45,7 +45,7 @@
                 "set remotetimeout 15",
                 "monitor reset init",
                 // Comment this next line out if you don't want to reload program
-                "monitor program {C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex}",
+                "monitor program {C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex}",
                 "monitor reset run",
                 "monitor sleep 200",
                 "monitor psoc6 reset_halt sysresetreq"
@@ -87,7 +87,7 @@
             "type": "cortex-debug",
             "request": "attach",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceRoot}",
@@ -126,7 +126,7 @@
             "type": "cortex-debug",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceRoot}",
@@ -150,7 +150,7 @@
             "type": "cortex-debug",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
             "servertype": "openocd",
             "searchDir": [
                 "${workspaceRoot}",
@@ -161,7 +161,7 @@
             ],
             "overrideLaunchCommands": [
                 "monitor psoc6 sflash_restrictions 1",
-                "monitor program {C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex}",
+                "monitor program {C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex}",
                 "monitor reset_config srst_only",
                 "monitor reset run",
                 "monitor psoc6.dap dpreg 0x04 0x00",
@@ -176,12 +176,12 @@
             "type": "cortex-debug",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
             "servertype": "jlink",
             "device": "CY8C6xxA_CM4_sect256KB",
             "preLaunchCommands": [
                 // Program via the hex file to get complete coverage
-                "exec-file C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex"
+                "exec-file C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex"
             ],
             "demangle": true,
             // svdFile is optional, it can be very large.
@@ -200,7 +200,7 @@
             "type": "cortex-debug",
             "request": "attach",
             "cwd": "${workspaceRoot}",
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.elf",
             "servertype": "jlink",
             "device": "CY8C6xxA_CM4_sect256KB",
             "demangle": true,
@@ -215,7 +215,7 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             // executable not needed but need some valid file to get the session to start
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
             "servertype": "jlink",
             "device": "CY8C6xxA_CM0p_sect256KB_tm",
             "overrideLaunchCommands": [
@@ -233,7 +233,7 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             // Program via the hex file to get complete coverage, no need for symbols
-            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
+            "executable": "C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/mtb-example-anycloud-mqtt-client.hex",
             "servertype": "jlink",
             "device": "CY8C6xxA_CM0p_sect256KB_tm",
             "overrideLaunchCommands": [

@@ -123,25 +123,6 @@
  */
 #define MQTT_ALPN_PROTOCOL_NAME           "x-amzn-mqtt-ca"
 
-/* Configure the below credentials in case of a secure MQTT connection. */
-/* PEM-encoded client certificate */
-#define CLIENT_CERTIFICATE      \
-"-----BEGIN CERTIFICATE-----\n" \
-"........base64 data........\n" \
-"-----END CERTIFICATE-----"
-
-/* PEM-encoded client private key */
-#define CLIENT_PRIVATE_KEY          \
-"-----BEGIN RSA PRIVATE KEY-----\n" \
-"..........base64 data..........\n" \
-"-----END RSA PRIVATE KEY-----"
-
-/* PEM-encoded Root CA certificate */
-#define ROOT_CA_CERTIFICATE     \
-"-----BEGIN CERTIFICATE-----\n" \
-"........base64 data........\n" \
-"-----END CERTIFICATE-----"
-
 /******************************************************************************
 * Global Variables
 *******************************************************************************/

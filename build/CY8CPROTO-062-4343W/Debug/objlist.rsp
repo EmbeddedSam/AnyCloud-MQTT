@@ -329,6 +329,10 @@ C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/lib
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/retarget-io/cy_retarget_io.o
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/secure-sockets/source/COMPONENT_LWIP/cy_secure_sockets.o
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/secure-sockets/source/COMPONENT_MBEDTLS/cy_tls.o
+C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/usbdev/cy_usb_dev.o
+C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/usbdev/cy_usb_dev_audio.o
+C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/usbdev/cy_usb_dev_cdc.o
+C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/usbdev/cy_usb_dev_hid.o
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/whd-bsp-integration/cy_network_buffer.o
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/whd-bsp-integration/cybsp_wifi.o
 C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/libs/wifi-connection-manager/source/COMPONENT_LWIP/cy_wcm.o

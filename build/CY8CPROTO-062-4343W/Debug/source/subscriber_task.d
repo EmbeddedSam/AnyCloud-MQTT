@@ -236,7 +236,8 @@ C:/playground/modus-playground/AnyCloud-MQTT/build/CY8CPROTO-062-4343W/Debug/sou
  libs/aws-iot-device-sdk-embedded-C/libraries/standard/common/include/iot_linear_containers.h \
  libs/aws-iot-device-sdk-embedded-C/libraries/platform/iot_network.h \
  libs/aws-iot-device-sdk-embedded-C/libraries/platform/types/iot_platform_types.h \
- configs/mqtt_client_config.h libs/retarget-io/cy_retarget_io.h
+ configs/mqtt_client_config.h aws_clientcredential_keys.h \
+ libs/retarget-io/cy_retarget_io.h
 
 libs/psoc6hal/include/cyhal.h:
 
@@ -741,5 +742,7 @@ libs/aws-iot-device-sdk-embedded-C/libraries/platform/iot_network.h:
 libs/aws-iot-device-sdk-embedded-C/libraries/platform/types/iot_platform_types.h:
 
 configs/mqtt_client_config.h:
+
+aws_clientcredential_keys.h:
 
 libs/retarget-io/cy_retarget_io.h:
