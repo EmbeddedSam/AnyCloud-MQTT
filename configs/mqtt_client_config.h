@@ -42,12 +42,13 @@
 #define MQTT_CLIENT_CONFIG_H_
 
 #include "iot_mqtt.h"
+#include "aws_clientcredential_keys.h"
 
 /*******************************************************************************
 * Macros
 ********************************************************************************/
 /* MQTT Broker/Server address and port used for the MQTT connection. */
-#define MQTT_BROKER_ADDRESS               "MY_AWS_IOT_ENDPOINT_ADDRESS"
+#define MQTT_BROKER_ADDRESS               AWS_BROKER
 #define MQTT_PORT                         8883
 
 /* Set this macro to 'true' if the MQTT Broker being used is hosted by AWS IoT 
